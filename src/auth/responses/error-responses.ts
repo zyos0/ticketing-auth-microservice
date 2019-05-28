@@ -1,0 +1,20 @@
+export const ErrorMessages = {
+    ON_CREATE_CREDENTIAL_CONFLICT: 'This user is already registered',
+    ON_CONFIRM_INVALID_TOKEN: 'Invalid Token',
+    ON_CONFIRM_EXPIRED_TOKEN: 'Expired Token',
+    ON_CONFIRM_CREDENTIAL_CURRENTLY_ACTIVE: 'This credentials doesn\'t require confirmation',
+    ON_RESET_PASSWORD_REQUEST_EMAIL_NOT_FOUND: 'Email doesn\'t exist',
+    ON_PASSWORD_RESET_INVALID_TOKEN: 'Invalid Token',
+    ON_PASSWORD_RESET_EXPIRED_TOKEN: 'Token expired, please request a new token',
+    GLOBAL_TO_MANY_REQUESTS: 'Too many requests',
+    VALIDATION_MISSING_CONFIRM_TOKEN: 'Must provide a token',
+    VALIDATION_INVALID_EMAIL: 'Invalid Email',
+    VALIDATION_MISSING_EMAIL: 'Must provide an Email',
+    VALIDATION_INVALID_SCOPE: 'Invalid Scope',
+    VALIDATION_MISSING_SCOPE: 'Must provide a Scope',
+    VALIDATION_MISSING_PASSWORD: 'Must provide a Password',
+    VALIDATION_WEAK_PASSWORD: 'Weak password',
+    VALIDATION_MISSING_TOKEN: 'Must provide a Token',
+    VALIDATION_MISSING_NEW_PASSWORD: 'Validation must provide a new password',
+  }
+;
