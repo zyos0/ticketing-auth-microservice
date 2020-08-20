@@ -38,7 +38,7 @@
     "@types/passport-jwt": "^3.0.1",
     "@types/passport-local": "^1.0.33",
     "@types/winston": "^2.4.4",
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "class-transformer": "^0.2.2",
     "class-validator": "^0.9.1",
     "csurf": "^1.10.0",
